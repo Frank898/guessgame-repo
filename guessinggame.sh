@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Step 1: File counting section
 
 function lsnum {
