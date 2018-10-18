@@ -1,11 +1,14 @@
-all: README.md
-
-
-
+all: clean README.md
 
 README.md: guessinggame.sh
-	echo -e "#The Great How-Much-Files-Are-In-Your-Directory Game\n\n" > README.md
-	echo -e "##by Fränki\n\n" >> README.md
+	echo "#The Great How-Much-Files-Are-In-Your-Directory Game" > README.md
+	echo "" >> README.md
+	echo "##by Fränki" >> README.md
+	echo "" >> README.md
+	echo "" >> README.md
 	echo "creation date" && date +%F%t%:z | cat >> README.md
 	echo "Number of lines: used: " >> README.md
-	 
+	cat guessinggame.sh | wc -l >> README.md 
+	
+clean:
+	rm README.md
