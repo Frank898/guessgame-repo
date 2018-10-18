@@ -8,7 +8,9 @@ README.md: guessinggame.sh
 	echo "" >> README.md
 	echo "creation date" && date +%F%t%:z | cat >> README.md
 	echo "Number of lines used: " >> README.md
-	cat guessinggame.sh | wc -l >> README.md 
+	cat guessinggame.sh | wc -l >> README.md
+	echo "" >> README.md
+	echo "Here is the [game](https://github.com/Frank898/guessgame-repo)" >> README.md
 	
 clean:
 	rm README.md
