@@ -1,9 +1,9 @@
 all: clean README.md
 
 README.md: guessinggame.sh
-	echo "#The Great How-Much-Files-Are-In-Your-Directory Game" > README.md
+	echo "# The Great How-Much-Files-Are-In-Your-Directory Game" > README.md
 	echo "" >> README.md
-	echo "##by Fränki" >> README.md
+	echo "## by Fränki" >> README.md
 	echo "" >> README.md
 	echo "" >> README.md
 	echo "creation date" && date +%F%t%:z | cat >> README.md

@@ -1,6 +1,6 @@
-#The Great How-Much-Files-Are-In-Your-Directory Game
+# The Great How-Much-Files-Are-In-Your-Directory Game
 
-##by Fränki
+## by Fränki
 
 
 2018-10-18	+02:00
